@@ -12,6 +12,7 @@ public class Function1Demo {
         System.out.println(add2.apply(3));
         System.out.println(mul2.apply(3));
 
+
         System.out.println(add2.andThen(mul2).apply(3));
         System.out.println(add2.compose(mul2).apply(3));
 
